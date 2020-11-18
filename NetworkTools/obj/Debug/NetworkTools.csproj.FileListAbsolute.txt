@@ -1,0 +1,14 @@
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\NetworkTools\NetworkTools\bin\Debug\NetworkTools.exe.config
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\NetworkTools\NetworkTools\bin\Debug\NetworkTools.exe
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\NetworkTools\NetworkTools\bin\Debug\NetworkTools.pdb
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\NetworkTools\NetworkTools\bin\Debug\Tokenizer.dll
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\NetworkTools\NetworkTools\bin\Debug\Whois.dll
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\NetworkTools\NetworkTools\obj\Debug\NetworkTools.csprojAssemblyReference.cache
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\NetworkTools\NetworkTools\obj\Debug\NetworkTools.Form1.resources
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\NetworkTools\NetworkTools\obj\Debug\NetworkTools.Properties.Resources.resources
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\NetworkTools\NetworkTools\obj\Debug\NetworkTools.WHOIS.resources
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\NetworkTools\NetworkTools\obj\Debug\NetworkTools.csproj.GenerateResource.cache
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\NetworkTools\NetworkTools\obj\Debug\NetworkTools.csproj.CoreCompileInputs.cache
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\NetworkTools\NetworkTools\obj\Debug\NetworkTools.csproj.CopyComplete
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\NetworkTools\NetworkTools\obj\Debug\NetworkTools.exe
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\NetworkTools\NetworkTools\obj\Debug\NetworkTools.pdb

@@ -19,7 +19,8 @@ namespace NetworkTools
 
         private void btnOpenWhoIS_Click(object sender, EventArgs e)
         {
-
+            WHOIS whoisForm = new WHOIS();
+            whoisForm.Show();
         }
     }
 }

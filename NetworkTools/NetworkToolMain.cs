@@ -16,12 +16,12 @@ namespace NetworkTools
         /// </summary>
         /// <param name="url">The URL.</param>
         /// <returns></returns>
-        private string GetWhoIsInformation(string url)
+        public string GetWhoIsInformation(string url)
         {
             WhoisLookup lookup = new WhoisLookup();
             var response = lookup.Lookup(url);
 
-            return response.ToString();
+            return response.Content;
             
         }
     }

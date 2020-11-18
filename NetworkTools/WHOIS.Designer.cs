@@ -28,23 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnLookup = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.URL = new System.Windows.Forms.TextBox();
+            this.txtOut = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnLookup
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.button1.Location = new System.Drawing.Point(220, 440);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(198, 61);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Lookup";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnLookup.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnLookup.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.btnLookup.Location = new System.Drawing.Point(220, 440);
+            this.btnLookup.Name = "btnLookup";
+            this.btnLookup.Size = new System.Drawing.Size(198, 61);
+            this.btnLookup.TabIndex = 0;
+            this.btnLookup.Text = "Lookup";
+            this.btnLookup.UseVisualStyleBackColor = true;
+            this.btnLookup.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -56,24 +57,25 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "URL:";
             // 
-            // textBox1
+            // URL
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.textBox1.Location = new System.Drawing.Point(109, 76);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(152, 24);
-            this.textBox1.TabIndex = 2;
+            this.URL.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.URL.Location = new System.Drawing.Point(109, 76);
+            this.URL.Name = "URL";
+            this.URL.Size = new System.Drawing.Size(466, 24);
+            this.URL.TabIndex = 2;
             // 
-            // textBox2
+            // txtOut
             // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtOut.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Location = new System.Drawing.Point(62, 106);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(513, 328);
-            this.textBox2.TabIndex = 3;
+            this.txtOut.Location = new System.Drawing.Point(62, 106);
+            this.txtOut.Multiline = true;
+            this.txtOut.Name = "txtOut";
+            this.txtOut.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.txtOut.Size = new System.Drawing.Size(513, 328);
+            this.txtOut.TabIndex = 3;
             // 
             // label2
             // 
@@ -92,10 +94,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(626, 513);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtOut);
+            this.Controls.Add(this.URL);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnLookup);
             this.MaximizeBox = false;
             this.Name = "WHOIS";
             this.Text = "WHOIS Lookup";
@@ -106,10 +108,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnLookup;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox URL;
+        private System.Windows.Forms.TextBox txtOut;
         private System.Windows.Forms.Label label2;
     }
 }
