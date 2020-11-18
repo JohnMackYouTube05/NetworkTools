@@ -22,5 +22,11 @@ namespace NetworkTools
             WHOIS whoisForm = new WHOIS();
             whoisForm.Show();
         }
+
+        private void btnPing_Click(object sender, EventArgs e)
+        {
+            PingTool ping = new PingTool();
+            ping.Show();
+        }
     }
 }

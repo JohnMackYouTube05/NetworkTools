@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Net.Sockets;
 using System.IO;
 using Whois;
+using System.Net.NetworkInformation;
 
 namespace NetworkTools
 {
@@ -22,6 +23,22 @@ namespace NetworkTools
             var response = lookup.Lookup(url);
 
             return response.Content;
+            
+        }
+        ///<summary>
+        ///Pings the specified URL or IP Address.
+        /// </summary>
+        /// <param name="url">The URL to ping.</param>
+        /// <param name="milliseconds">The amount of time in milliseconds between pings.</param>
+        /// <returns></returns>
+        public string Ping(string url, int milliseconds)
+        { 
+            
+                Ping ping = new Ping();
+                PingReply reply = ping.Send(url, milliseconds);
+                
+                return reply.Status.ToString();
+            
             
         }
     }

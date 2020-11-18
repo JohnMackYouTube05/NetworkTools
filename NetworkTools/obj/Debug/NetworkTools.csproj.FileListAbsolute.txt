@@ -12,3 +12,4 @@ C:\Users\liljm\Source\Repos\JohnMackYouTube05\NetworkTools\NetworkTools\obj\Debu
 C:\Users\liljm\Source\Repos\JohnMackYouTube05\NetworkTools\NetworkTools\obj\Debug\NetworkTools.csproj.CopyComplete
 C:\Users\liljm\Source\Repos\JohnMackYouTube05\NetworkTools\NetworkTools\obj\Debug\NetworkTools.exe
 C:\Users\liljm\Source\Repos\JohnMackYouTube05\NetworkTools\NetworkTools\obj\Debug\NetworkTools.pdb
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\NetworkTools\NetworkTools\obj\Debug\NetworkTools.PingTool.resources

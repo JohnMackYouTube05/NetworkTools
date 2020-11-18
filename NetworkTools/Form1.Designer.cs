@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.btnOpenWhoIS = new System.Windows.Forms.Button();
+            this.btnPing = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -44,6 +45,8 @@
             // 
             // btnOpenWhoIS
             // 
+            this.btnOpenWhoIS.AccessibleDescription = "Opens the Whois form.";
+            this.btnOpenWhoIS.AccessibleName = "WHOIS Button";
             this.btnOpenWhoIS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnOpenWhoIS.Location = new System.Drawing.Point(39, 72);
             this.btnOpenWhoIS.Name = "btnOpenWhoIS";
@@ -53,11 +56,25 @@
             this.btnOpenWhoIS.UseVisualStyleBackColor = true;
             this.btnOpenWhoIS.Click += new System.EventHandler(this.btnOpenWhoIS_Click);
             // 
+            // btnPing
+            // 
+            this.btnPing.AccessibleDescription = "Opens the ping form.";
+            this.btnPing.AccessibleName = "Ping Button";
+            this.btnPing.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnPing.Location = new System.Drawing.Point(274, 72);
+            this.btnPing.Name = "btnPing";
+            this.btnPing.Size = new System.Drawing.Size(207, 73);
+            this.btnPing.TabIndex = 2;
+            this.btnPing.Text = "Ping";
+            this.btnPing.UseVisualStyleBackColor = true;
+            this.btnPing.Click += new System.EventHandler(this.btnPing_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1108, 579);
+            this.Controls.Add(this.btnPing);
             this.Controls.Add(this.btnOpenWhoIS);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -71,6 +88,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnOpenWhoIS;
+        private System.Windows.Forms.Button btnPing;
     }
 }
 
