@@ -31,6 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnOpenWhoIS = new System.Windows.Forms.Button();
             this.btnPing = new System.Windows.Forms.Button();
+            this.btnIPInfo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -69,11 +70,25 @@
             this.btnPing.UseVisualStyleBackColor = true;
             this.btnPing.Click += new System.EventHandler(this.btnPing_Click);
             // 
+            // btnIPInfo
+            // 
+            this.btnIPInfo.AccessibleDescription = "Opens the IP Info Form.";
+            this.btnIPInfo.AccessibleName = "IP Info Button";
+            this.btnIPInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnIPInfo.Location = new System.Drawing.Point(511, 72);
+            this.btnIPInfo.Name = "btnIPInfo";
+            this.btnIPInfo.Size = new System.Drawing.Size(207, 73);
+            this.btnIPInfo.TabIndex = 3;
+            this.btnIPInfo.Text = "IP Info";
+            this.btnIPInfo.UseVisualStyleBackColor = true;
+            this.btnIPInfo.Click += new System.EventHandler(this.btnIPInfo_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1108, 579);
+            this.Controls.Add(this.btnIPInfo);
             this.Controls.Add(this.btnPing);
             this.Controls.Add(this.btnOpenWhoIS);
             this.Controls.Add(this.label1);
@@ -89,6 +104,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnOpenWhoIS;
         private System.Windows.Forms.Button btnPing;
+        private System.Windows.Forms.Button btnIPInfo;
     }
 }
 

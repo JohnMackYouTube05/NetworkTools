@@ -28,5 +28,11 @@ namespace NetworkTools
             PingTool ping = new PingTool();
             ping.Show();
         }
+
+        private void btnIPInfo_Click(object sender, EventArgs e)
+        {
+            IPLocation ipl = new IPLocation();
+            ipl.ShowDialog();
+        }
     }
 }

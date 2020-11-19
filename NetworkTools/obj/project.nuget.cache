@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZEllX1jjhMr09OcCrdXfAYSCX/N3t/gfNVpU45eGQ8jEdG2UrouZpCX+V4aE8gtnU+AZdefePdazX5tUVTrB6w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\liljm\\Source\\Repos\\JohnMackYouTube05\\NetworkTools\\NetworkTools\\NetworkTools.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\liljm\\.nuget\\packages\\microsoft.vcrtforwarders.140\\1.0.6\\microsoft.vcrtforwarders.140.1.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
