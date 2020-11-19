@@ -48,7 +48,6 @@ namespace NetworkTools
 
             var ipInfo = await client.Lookup(url);
             StringBuilder ipString = new StringBuilder();
-            StringBuilder threatCheck = new StringBuilder();
             ipString.AppendLine("IP Address: " + ipInfo.Ip);
             ipString.AppendLine("ASN: " + ipInfo.Asn);
             ipString.AppendLine("Calling Code: " + ipInfo.CallingCode);
@@ -58,7 +57,6 @@ namespace NetworkTools
             ipString.AppendLine("Currency: " + ipInfo.Currency.ToString());
             ipString.AppendLine("Flag Image: " + ipInfo.Flag);
             ipString.AppendLine("Is Europe: " + ipInfo.IsEu.Value.ToString());
-            ipString.AppendLine("Languages: " + ipInfo.Languages.ToString());
             ipString.AppendLine("Latitude: " + ipInfo.Latitude);
             ipString.AppendLine("Longitude: " + ipInfo.Longitude);
             ipString.AppendLine("Organization: " + ipInfo.Organisation);
